@@ -1,0 +1,392 @@
+body,h1,h2,h3,h4,h5,h6,a,span,p{
+  font-family: 'Work Sans', sans-serif;
+}
+
+img{
+  max-width: 100%;
+}
+
+.bg-color-sec{
+  background: #f6f8ff;
+}
+
+/* Navbar Section */
+
+.navbar{
+  
+}
+.navbar-brand{}
+.navbar-brand{
+  font-size: 26px;
+  font-weight: 500;
+  
+}
+.navbar-brand span{
+  background: #6278df;
+  color: #fff;
+  width: 45px;
+  height: auto;
+  display: inline-block;
+  text-align: center;
+  border-radius: 10px;
+  font-size: 30px;
+  margin-right: 5px;
+  position: relative;
+  top: 3px;
+}
+
+.navbar-nav{
+  margin-left: 70px;
+  
+}
+
+.navbar-nav li{
+  padding: 15px;
+}
+.navbar-nav li a{
+  color: black !important;
+  
+}
+
+.default-btn-1{
+  color: #6278df ;
+  border: 2px solid #6278df;
+  font-weight: bold;
+  font-size: 15px;
+  padding: 10px 30px;
+  transition: .4s;
+}
+.default-btn-1:hover{
+  color: #fff;
+  background: #6278df;
+  box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+/* Banner section */
+.banner-section{
+  background: url(./image/mbr-10.jpg) no-repeat center center ;
+  padding: 120px 0;
+  color: #fff;
+  position: relative;
+  z-index: 1;
+}
+.banner-section::after{
+  content: "";
+  background: rgba( 0, 0, 0, .5);
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+}
+
+.banner-title{}
+.banner-title p{
+  font-size: 25px;
+  font-weight: 300;
+
+}
+.banner-title h2{
+  font-size: 40px;
+  font-weight: 500;
+}
+
+.banner-form{
+  padding: 15px 37px;
+}
+.banner-form .input-email{
+  padding: 18px 20px;
+ 
+}
+.banner-form .input-email:focus{
+  box-shadow: 3px 3px 27px -3px #6278df;
+}
+
+.banner-btn .default-btn-1{
+  background: #5ba533;
+  border-color: #5ba533;
+  color: #fff;
+  font-size: 20px;
+  width: 75%;
+  border-radius: 5px;
+  padding: 15px;
+  transition: .4s;
+ 
+}
+.banner-btn .default-btn-1:hover{
+  background: #fff;
+  color: #6278df;
+  border-color: #6278df;
+}
+
+/* counter-section */
+.counter-section h3{
+  font-size: 50px;
+}
+.counter-section p{
+  font-size: 20px;
+  font-weight: 400;
+  color: #767676;
+}
+
+/* About Section */
+
+.about-section{
+
+}
+.a-about-sec{
+  margin-top: 190px;
+}
+.a-about-sec h2{
+  font-size: 40px;
+}
+.a-about-sec p{
+  font-size: 18px;
+}
+
+
+/* Feature section */
+
+.feature-section{
+ 
+}
+.feature-item{
+  height: 240px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+  transition: .4s;
+}
+.feature-item:hover{
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+}
+
+.f-sec-title h2{
+  font-size: 45px;
+  font-weight: 400;
+}
+.f-sec-title p{
+  font-size: 25px;
+  font-weight: 300;
+  color: #767676;
+}
+
+.f-img-sec{
+  width: 45%;
+  overflow: hidden;
+}
+.f-about-sec{
+  width: 55%;
+  padding: 20px;
+}
+
+.f-img-sec img{
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: -60px;
+}
+.f-img-sec .fix-img{
+  height: 100%;
+  width: auto !important;
+  max-width: inherit;
+  position: relative;
+  left: 0px;
+}
+
+.f-about-sec h4{
+  font-size: 20px;
+}
+.f-about-sec p{
+  font-size: 12px;
+}
+
+/* Image-section */
+
+.image-section h3{
+  font-size: 40px;
+  font-weight: 400;;
+}
+
+.image-items{
+  position: relative;
+  display: block;
+}
+.image-items a::after{
+  content: "";
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+  left: 0;
+  background: rgba( 98, 120, 223, .7);
+  opacity: 0;
+  visibility: hidden;
+  transition: .4s;
+}
+
+.image-items:hover a::after{
+  opacity: 1;
+  visibility: visible;
+}
+
+
+
+/* Pricing Section */
+
+.p-title-sec{
+
+}
+.p-title-sec h2{
+  font-size: 55px;
+  font-weight: 400;
+}
+.p-title-sec p{
+  font-size: 25px;
+  margin-top: 30px;
+  color: #767676;
+}
+.t1-p-sec{
+  padding-bottom: 30px;
+}
+.p-table-sec{
+  background: white;
+  padding: 40px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+ 
+}
+.p-table-sec{
+  transition: .4s;
+}
+.p-table-sec:hover{
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.p-table-sec:hover .t-btn-sec a{
+  background: #6278df;
+  color: #fff;
+}
+.t-title-sec h3{
+  font-size: 40px;
+  padding: 20px 0;
+}
+.t-title-sec p{
+  font-size: 20px;
+  font-weight: 300;
+  
+}
+.t-aboout-sec{
+  
+}
+.t-aboout-sec ul{
+  list-style: none;
+  padding-left: 0;
+}
+.t-aboout-sec ul li{
+  font-size: 20px;
+  font-weight: 300;
+  line-height: 61px;
+  color: #767676;
+}
+.t-aboout-sec ul li span{
+  width: 40px;
+  font-size: 25px;
+  display: inline-block;
+  color: royalblue;
+  -webkit-text-stroke: 2px;
+  position: relative;
+  top: 4px;
+}
+.t-btn-sec a{
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+  color: #6278df;
+  padding: 12px 60px;
+  border-color: transparent;
+  border-radius: 5px;
+  font-weight: 600;
+  transition: .4s;
+}
+.t-btn-sec a:hover{
+  background: black !important;
+  color: #fff;
+}
+
+/* user section */
+
+.user-item{
+  width: 200px;
+  margin: auto;
+  position: relative;
+  left: 30px;
+}
+.user-item img{
+  width: 65px;
+  margin-right: 15px;
+}
+
+.user-name h4{
+  font-size: 20px;
+}
+.user-name{
+  position: relative;
+  top: 6px;
+}
+.user-about-sec .user-name p{
+  font-size: 15px !important;
+  padding: 0 !important;
+  font-weight: 300 !important;
+}
+.user-about-sec h3{
+  font-size: 25px;
+  font-weight: 300;
+  color: #767676;
+}
+.user-about-sec h2{
+  font-size: 42px;
+  font-weight: 400;
+}
+.user-about-sec p{
+  font-size: 21px;
+  padding: 0px 186px;
+  font-weight: 200;
+}
+.user-about-sec span{
+  display: inline-block;
+  font-size: 100px;
+  margin: -30px;
+  opacity: .1;
+}
+
+/* Team history section */
+.card{
+  padding: 10px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+  transition: .4s;
+  margin-top: 90px;
+}
+.card:hover{
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+}
+.card-img{
+  width: 120px;
+  margin-top: -65px;
+  margin-left: 5px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 20%);
+}
+.card-title{
+  font-size: 20px;
+  margin-top: 15px;
+}
+.card-subtitle{
+  font-size: 20px;
+  font-weight: 400;
+}
+.card-text{
+  font-size: 15px;
+  font-weight: 300;
+  padding-top: 15px;
+}
+.card-btn{
+  font-size: 15px;
+  font-weight: 600;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
+}
