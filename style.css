@@ -390,3 +390,118 @@ img{
   font-weight: 600;
   box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 30%);
 }
+
+
+/* Contact Section */
+
+.contact-form-section{
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+.c-title-sec{} 
+.c-title-sec p{
+  font-size: 22px;
+  font-weight: 300;
+} 
+.c-title-sec h2{
+  font-size: 45px;
+  font-weight: 400;
+} 
+.form-title{}
+.form-title h3{
+  font-size: 25px;
+}
+.form-input-sec{
+  padding: 20px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+.f-text-area{
+  height: 200px;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 10%);
+}
+
+.form-input-sec:focus{
+  border-color: #6278df;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 50%);
+}
+
+.form-btn-sec{
+  background: #6278df;
+  color: #fff;
+  padding: 17px 33px;
+  font-weight: 600;
+  font-size: 20px;
+  border-radius: 8px;
+  border: 2px solid transparent;
+  transition: .4s;
+ 
+}
+.form-btn-sec:hover{
+  color: #6278df;
+  background: #fff;
+  border: 2px solid #6278df;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 50%);
+
+}
+
+
+/* App Section */
+
+.app-sec p{
+  font-size: 26px;
+  font-weight: 300;
+  color: #767676;
+}
+.app-sec h1{
+  font-size: 48px;
+  font-weight: 500;
+}
+.app-sec .app-btn-sec{
+  color: #5ba533;
+  border: 2px solid #5ba533;
+  font-size: 22px;
+  font-weight: 600;
+  padding: 14px 30px;
+  border-radius: 7px;
+  transition: .4s;
+}
+.app-btn-sec:hover{
+  color: white;
+  background: #5ba533;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 40%);
+}
+.app-btn-sec2{
+  color: white;
+  background: #5ba533;
+  box-shadow: 2.5px 4.33px 30px 0 rgb(64 87 191 / 40%);
+  border: 2px solid transparent;
+  font-size: 20px;
+  font-weight: 600;
+  padding: 15px 30px;
+  border-radius: 7px;
+  transition: .4s;
+  margin-left: 20px;
+}
+.app-btn-sec2:hover{
+  color: #fff;
+  background: black;
+  box-shadow: none;
+  
+}
+.app-sec img{}
+
+
+/* Footer Section */
+footer{
+  background: #f6f8ff;
+}
+footer p{
+  font-size: 20px;
+  word-spacing: 10px;
+}
+footer a{
+  text-decoration: none;
+  color: black;
+  font-size: 25px;
+  word-spacing: 0;
+}
